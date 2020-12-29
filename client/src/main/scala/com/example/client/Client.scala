@@ -15,7 +15,7 @@ import scala.util.Success
 
 object Client {
 
-  val stub = ServiceGrpcWeb.stub(Channels.grpcwebChannel("http://localhost:8080"))
+  val stub = ServiceGrpcWeb.stub(Channels.grpcwebChannel("http://localhost:9000"))
 
   def main(args: Array[String]): Unit = {
     val helloWorldContainer = document.createElement("p")
